@@ -17,10 +17,12 @@ $('form').on('submit', (e)=>{
         let pokeGif = 'http://www.pokestadium.com/sprites/xy/'+ userInput.toLowerCase() + '.gif';
         // $('#picture').attr('src', pokeImage);
         $('#picture').attr('src', pokeGif);
-
+    
+    let name = data.name;
+    let nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
 
     $('.number').html("#"+data.id);
-    $('.name').html(data.name);
+    $('.name').html(nameCapitalized);
     $('.type1').html(data.types[0].type.name);
     $('.type2').html(data.types[1].type.name);
     $('.move1').html(data.moves[0].move.name);
