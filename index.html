@@ -6,28 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script defer src="./js/script.js"></script>
     <title>PokeDex</title>
 </head>
 <body>
-    <header>
-        <h1>Khris' Beautiful Pokedex</h1>
-    </header>
-    <div>
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <input type="text" id="basic-addon1" placeholder="Pokemon"/></div>
-                <input class="btn btn-primary"type="submit" value="Submit"/>
-            </div>
-        </form>
-    </div>
-        <!--Output-->
-    <div id="stat">
-    </div>
-    <footer>
-        <!--Closing Remarks-->
-    </footer>
+    <div class="container">
+        <header>
+            <h1>KHRIS' POKEDEXGALORE3000</h1>
+        </header>
+        <div>
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <input type="text" id="basic-addon1" placeholder="Pokemon"/></div>
+                    <input class="btn btn-primary"type="submit" value="Submit"/>
+                </div>
+            </form>
+        </div>
+            <!--Output-->
+        <div class="picture"></div>
+        <ul id="pokemon">
+            <li class="number"></li>
+            <li class="name"></li>
+            <li class="type1"></li>
+            <li class="type2"></li>
+        </ul>
+        <ul id="moveSet">
+            <li class="move1"></li>
+            <li class="move2"></li>
+            <li class="move3"></li>
+            <li class="move4"></li>
+        </ul>
+
+        <footer>
+            <!--Closing Remarks-->
+        </footer>
+    </div>  
 </body>
 </html>
