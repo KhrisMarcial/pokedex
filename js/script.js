@@ -13,8 +13,8 @@ $('form').on('submit', (e)=>{
         //check for undefined
         //if undefined, do not append
         //append an item to list
-        let pokeImage = "'"+ data.sprites.front_default + "'";
-        $('#picture').prepend("<img src="+ pokeImage +"></img>")
+        let pokeImage = data.sprites.front_default;
+        $('#picture').attr('src', pokeImage);
 
 
     $('.number').html("#"+data.id);
