@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    margin:5%;
+    background-image: url("https://images4.alphacoders.com/119/119138.jpg");
+    background-color: #FF99CB;
+    background-repeat:no-repeat;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+#jumbotron {
+    background-color: #C5E5D6 !important;
+}
+
+img {
+    margin: 5% 0%;
+}

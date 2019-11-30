@@ -14,7 +14,9 @@ $('form').on('submit', (e)=>{
         //if undefined, do not append
         //append an item to list
         let pokeImage = data.sprites.front_default;
-        $('#picture').attr('src', pokeImage);
+        let pokeGif = 'http://www.pokestadium.com/sprites/xy/'+ userInput.toLowerCase() + '.gif';
+        // $('#picture').attr('src', pokeImage);
+        $('#picture').attr('src', pokeGif);
 
 
     $('.number').html("#"+data.id);
