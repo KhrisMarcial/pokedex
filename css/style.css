@@ -5,7 +5,6 @@ body {
     background-color: #FF99CB;
     background-repeat:no-repeat;
     font-family: 'Press Start 2P', cursive;
-    text-align: center;
 }
 
 #jumbotron {
@@ -14,4 +13,9 @@ body {
 
 img {
     margin: 5% 0%;
+    height: auto;
+}
+
+p {
+    text-align: center;
 }
