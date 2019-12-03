@@ -31,16 +31,17 @@ $('form').on('submit', (e)=>{
     }
 
     console.log(pokeAttr.type1);
-    for (let i=0;i<pokeAttr.length;i++) {
-        if (pokeAttr[i] == undefined){
-            return;
-        } else {
 
-        }
-    }
+        $('.number').html("#"+data.id);
+        $('.name').html(nameCapitalized);
+        $('.type1').html(data.types[0].type.name);
+        $('.type2').html(data.types[1].type.name);
+        $('.move1').html(data.moves[0].move.name);
+        $('.move2').html(data.moves[1].move.name);
+        $('.move3').html(data.moves[2].move.name);
+        $('.move4').html(data.moves[3].move.name);
     },
     (error) => {
     console.log('bad request: ', error);
     })
 })
-// $('.move4').html(data.moves[3].move.name);
