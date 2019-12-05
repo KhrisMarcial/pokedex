@@ -53,7 +53,7 @@ $('form').on('submit', (e)=>{
 
             "types" : {
                 type1: "Type 1: " + data.types[0].type.name,
-                type2 : "Type 2: " + data.types[1].type.name
+                type2: "Type 2: " + data.types[1].type.name
             }
         }
     ]
@@ -61,7 +61,6 @@ $('form').on('submit', (e)=>{
     const appendInfo = () => {
 
         clearInfo();
-
 
             Object.keys(pokeAttr[0].moves).forEach(name => {
                 if (pokeAttr[0].moves[name] !== undefined) {
