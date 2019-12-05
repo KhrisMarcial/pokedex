@@ -23,3 +23,7 @@ p {
 h1 {
     text-align: center;
 }
+
+.smaller-text {
+    font-size: 7px;
+}
